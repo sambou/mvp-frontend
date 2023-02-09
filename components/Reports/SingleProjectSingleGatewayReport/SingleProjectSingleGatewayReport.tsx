@@ -35,7 +35,7 @@ export default function SingleProjectSingleGatewayReport({
           }
         />
       </Card>
-      <Card>
+      <Card className={classes.total}>
         Total | <FormattedCurrency amount={total} />
       </Card>
     </div>
