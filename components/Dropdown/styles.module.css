@@ -1,0 +1,48 @@
+.wrapper {
+  cursor: pointer;
+  position: relative;
+  color: var(--brand-text-color);
+  background: var(--brand-color);
+  border-radius: 5px;
+  font-size: var(--font-size-1);
+}
+
+.wrapper.open {
+  border-radius: unset;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.content {
+  padding: var(--space-2) var(--space-3);
+  color: var(--brand-text-color);
+  background: var(--brand-color);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.content > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content > ul > li {
+  padding: var(--space-1) 0;
+}
+
+.buttonReset {
+  all: unset;
+}
+
+.button {
+  padding: var(--space-2) var(--space-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+}

@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: auto 1fr auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    'appBar appBar appBar'
+    'navigation main none'
+    'navigation footer footer';
+}
+
+.appBar {
+  grid-area: appBar;
+  margin-bottom: var(--space-10);
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  padding: var(--space-5) 0;
+  grid-area: footer;
+}

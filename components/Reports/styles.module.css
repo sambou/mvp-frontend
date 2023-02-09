@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-7);
+}
+
+.subheadline {
+  margin-top: var(--space-1);
+}
+
+.empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.reports {
+  display: flex;
+  gap: var(--space-8);
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.reports > * {
+  flex: 1;
+}
+
+.pieChart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: var(--space-4-5);
+}
+
+.total {
+  padding: var(--space-4);
+}

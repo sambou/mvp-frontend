@@ -1,0 +1,46 @@
+.table {
+  border: none;
+  border-collapse: collapse;
+  font-size: var(--font-size-2);
+  text-align: center;
+}
+
+.table > * > tr > th {
+  font-weight: 400;
+}
+
+.table > * > tr > td {
+  padding: var(--space-2);
+}
+
+.table > * > tr > td:first-child {
+  text-align: left;
+}
+
+.table > * > tr > th:first-child {
+  text-align: left;
+}
+
+.table > * > tr > td:last-child {
+  text-align: right;
+}
+
+.table > * > tr > th:last-child {
+  text-align: right;
+}
+
+.table > * > tr > th {
+  padding: var(--space-3);
+}
+
+.table > thead > tr {
+  background-color: var(--card-foreground-color);
+}
+
+.table > tbody > tr:nth-child(odd) {
+  background-color: var(--card-background-color);
+}
+
+.table > tbody > tr:nth-child(even) {
+  background-color: var(--card-foreground-color);
+}

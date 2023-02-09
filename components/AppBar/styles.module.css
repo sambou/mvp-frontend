@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-5) var(--space-8);
+  padding-right: 100px;
+  border-bottom: 2px solid var(--divider-color);
+}
+
+.wrapper > :not(:first-child):not(:last-child) {
+  margin-left: var(--space-4);
+}
+
+.wrapper > :last-child {
+  margin-left: auto;
+}

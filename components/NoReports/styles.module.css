@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrapper > h2 {
+  margin-bottom: var(--space-1);
+}
+
+.wrapper > p {
+  margin-bottom: var(--space-10);
+}

@@ -1,0 +1,16 @@
+.inputReset {
+  all: unset;
+}
+
+.input {
+  cursor: pointer;
+  font-size: var(--font-size-1);
+  color: var(--brand-text-color);
+  background: var(--brand-color);
+  border-radius: 5px;
+  padding: calc(var(--space-2) - 1px) var(--space-3);
+}
+
+.input::-webkit-calendar-picker-indicator {
+  filter: brightness(0) invert(1);
+}

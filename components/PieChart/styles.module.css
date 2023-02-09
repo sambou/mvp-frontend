@@ -1,0 +1,33 @@
+.legend {
+  display: flex;
+  align-items: center;
+  padding: var(--space-4);
+  gap: var(--space-4-5);
+}
+
+.legendIcon {
+  display: flex;
+  align-items: center;
+}
+
+.legendIcon::before {
+  content: '';
+  width: var(--space-5);
+  height: var(--space-5);
+  border-radius: 5px;
+  margin-right: var(--space-3);
+  display: inline-block;
+  background-color: var(--iconColor);
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  font-size: 0.2em;
+  alignment-baseline: middle;
+  text-anchor: middle;
+  fill: var(--pie-chart-label);
+}

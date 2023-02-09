@@ -1,0 +1,9 @@
+.card {
+  background-color: var(--card-background-color);
+  border-radius: 10px;
+  padding: var(--space-4-5) var(--space-6);
+}
+
+.cardSummary {
+  padding: var(--space-4) 0;
+}

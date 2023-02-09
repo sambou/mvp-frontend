@@ -1,0 +1,20 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.transactions {
+  margin-left: var(--space-4);
+}
+
+.report {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+}
+
+.total {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
